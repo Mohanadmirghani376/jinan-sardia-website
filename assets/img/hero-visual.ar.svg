@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" fill="none" role="img" aria-label="مخطط يربط المشتري عبر ساردية بمصانع صينية معتمدة">
+  <defs>
+    <linearGradient id="gCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".05"/>
+    </linearGradient>
+    <linearGradient id="gRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ee6072"/>
+      <stop offset="1" stop-color="#d91e36"/>
+    </linearGradient>
+    <linearGradient id="gHub" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b01629"/>
+      <stop offset="1" stop-color="#d91e36"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Routed from the right (buyer) to the left (factories), matching RTL -->
+  <g stroke="#ffffff" stroke-opacity=".26" stroke-width="1.6" stroke-dasharray="5 6">
+    <path d="M400 250C330 250 310 150 252 132"/>
+    <path d="M400 250C330 250 310 250 252 250"/>
+    <path d="M400 250C330 250 310 350 252 368"/>
+    <path d="M128 132C90 132 80 190 68 224"/>
+    <path d="M128 250H68"/>
+    <path d="M128 368c-38 0-44-58-56-92"/>
+  </g>
+
+  <!-- Buyer node (right) -->
+  <g>
+    <circle cx="400" cy="250" r="46" fill="url(#gCard)" stroke="#ffffff" stroke-opacity=".3" stroke-width="1.6"/>
+    <path d="M378 232h44v26a4 4 0 0 1-4 4h-36a4 4 0 0 1-4-4v-26Z" fill="url(#gRed)"/>
+    <path d="M378 232 400 218l22 14" stroke="#ee6072" stroke-width="3.2" stroke-linejoin="round" fill="none"/>
+    <path d="M392 214.5v-8h16v8" stroke="#ffffff" stroke-opacity=".75" stroke-width="3" stroke-linecap="round"/>
+    <text x="400" y="322" fill="#ffffff" fill-opacity=".72" font-family="Noto Kufi Arabic, sans-serif" font-size="13" font-weight="700" text-anchor="middle">المشتري</text>
+  </g>
+
+  <!-- Hub node (center) : Sardia -->
+  <g>
+    <circle cx="270" cy="250" r="60" fill="url(#gHub)" stroke="url(#gRed)" stroke-width="2.6"/>
+    <circle cx="270" cy="250" r="72" stroke="#ffffff" stroke-opacity=".12" stroke-width="1.4" stroke-dasharray="3 7"/>
+    <path d="M270 226 240 236v20.4C240 268 251.9 280 270 284c18.1-4 30-16 30-27.6V236l-30-10Z" fill="url(#gRed)"/>
+    <path d="M270 226 240 236 270 246l30-10-30-10Z" fill="#ee6072"/>
+    <path d="M270 246v38" stroke="#d91e36" stroke-width="2.4" opacity=".45"/>
+    <text x="270" y="366" fill="#ffffff" fill-opacity=".72" font-family="Noto Kufi Arabic, sans-serif" font-size="13" font-weight="700" text-anchor="middle">ساردية</text>
+  </g>
+
+  <!-- Factory nodes (left) -->
+  <g>
+    <g>
+      <rect x="104" y="106" width="48" height="44" rx="9" fill="url(#gCard)" stroke="#ffffff" stroke-opacity=".28" stroke-width="1.5"/>
+      <path d="M114 140v-13l9 6v-6l9 6v-11l9 5v13h-27Z" fill="#008752"/>
+      <text x="70" y="132" fill="#ffffff" fill-opacity=".6" font-family="Noto Kufi Arabic, sans-serif" font-size="11" text-anchor="middle">مصنع أ</text>
+    </g>
+    <g>
+      <rect x="104" y="228" width="48" height="44" rx="9" fill="url(#gCard)" stroke="#ffffff" stroke-opacity=".28" stroke-width="1.5"/>
+      <circle cx="120" cy="244" r="5" fill="#008752"/>
+      <circle cx="136" cy="244" r="5" fill="#ffffff" fill-opacity=".5"/>
+      <circle cx="120" cy="258" r="5" fill="#ffffff" fill-opacity=".5"/>
+      <circle cx="136" cy="258" r="5" fill="#008752"/>
+      <text x="70" y="254" fill="#ffffff" fill-opacity=".6" font-family="Noto Kufi Arabic, sans-serif" font-size="11" text-anchor="middle">مصنع ب</text>
+    </g>
+    <g>
+      <rect x="104" y="350" width="48" height="44" rx="9" fill="url(#gCard)" stroke="#ffffff" stroke-opacity=".28" stroke-width="1.5"/>
+      <path d="M115 384v-16l10-6 10 6v16h-20Z" fill="#008752"/>
+      <rect x="121" y="373" width="8" height="11" rx="1.5" fill="#d91e36" opacity=".45"/>
+      <text x="70" y="376" fill="#ffffff" fill-opacity=".6" font-family="Noto Kufi Arabic, sans-serif" font-size="11" text-anchor="middle">مصنع ج</text>
+    </g>
+  </g>
+
+  <!-- Truck travelling on the bottom route -->
+  <g transform="translate(352 344) scale(-1 1)">
+    <path d="M0 0h40v16H0z" fill="#ee6072"/>
+    <path d="M40 5h13l9 8v3H40V5Z" fill="#008752"/>
+    <circle cx="12" cy="18" r="4.4" fill="#ffffff" fill-opacity=".85"/>
+    <circle cx="52" cy="18" r="4.4" fill="#ffffff" fill-opacity=".85"/>
+  </g>
+</svg>

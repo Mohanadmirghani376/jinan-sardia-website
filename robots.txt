@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Build tooling / internal
+Disallow: /node_modules/
+
+Sitemap: https://www.sardia.com/sitemap.xml

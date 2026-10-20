@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Jinan Sardia">
+  <!--
+    Brand mark: two interlocking "C" links forming a chain, per the brand
+    guidelines rationale (interconnected chain + the letter C + movement).
+    Green link, red link, red node at the join.
+  -->
+  <g fill="none" stroke-width="6.5" stroke-linecap="round">
+    <!-- green C, opening right -->
+    <path d="M31.6 17.9A14.5 14.5 0 1 0 31.6 46.1" stroke="#008752"/>
+    <!-- red C, opening left, interlocking with the green -->
+    <path d="M32.4 46.1A14.5 14.5 0 1 1 32.4 17.9" stroke="#D91E36"/>
+  </g>
+  <!-- red node: the point where the two links meet -->
+  <circle cx="32" cy="32" r="5.2" fill="#D91E36"/>
+</svg>

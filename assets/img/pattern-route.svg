@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 120 120">
+  <!--
+    Brand pattern: abstract route / leaf veins.
+
+    Strokes are white so the file can be layered over any of the brand fields
+    (navy, red, green) at low opacity. A background-image SVG cannot inherit
+    `currentColor` across the document boundary, so the colour is fixed here.
+  -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round">
+    <path d="M18 104C40 78 44 46 66 18"/>
+    <path d="M34 84C48 84 58 76 64 62"/>
+    <path d="M45 62C30 62 22 54 18 42"/>
+    <path d="M52 46C66 46 76 38 82 26"/>
+    <path d="M27 90C40 94 52 92 62 84"/>
+    <circle cx="66" cy="18" r="3.2" fill="#FFFFFF" stroke="none"/>
+    <circle cx="18" cy="104" r="3.2" fill="#FFFFFF" stroke="none"/>
+    <circle cx="82" cy="26" r="2" fill="#FFFFFF" stroke="none"/>
+    <circle cx="18" cy="42" r="2" fill="#FFFFFF" stroke="none"/>
+    <circle cx="64" cy="62" r="2" fill="#FFFFFF" stroke="none"/>
+  </g>
+</svg>

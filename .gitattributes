@@ -1,0 +1,15 @@
+# Normalise to LF in the repo regardless of contributor platform.
+# The site is served statically, so line endings carry no meaning and a
+# single canonical form keeps diffs clean between Windows/macOS/Linux.
+* text=auto eol=lf
+
+# Binary assets -- never normalise.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.webp binary
+*.pdf  binary
+*.woff  binary
+*.woff2 binary
